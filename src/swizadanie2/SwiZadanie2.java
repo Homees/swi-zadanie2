@@ -5,6 +5,8 @@
  */
 package swizadanie2;
 
+import java.util.Random;
+
 /**
  *
  * @author Filip
@@ -33,6 +35,15 @@ public class SwiZadanie2 {
             abc[i] = (char) (i + 'a');
         }
         System.out.println("Nova abeceda: " + abc.toString());
+    }
+    
+    private static void randomNumbers() {
+        Random rnd = new Random(System.currentTimeMillis());
+        int r = 0, i = 0;
+        do {
+            r = rnd.nextInt(100);
+            System.out.println(r);
+        } while (i < 100);
     }
     
 }

@@ -29,7 +29,7 @@ public class SwiZadanie2 {
     
     private static void aplhabetMethod() {
         Character[] abc = new Character[26];
-        for (int i = 0; i < 25; i++) {
+        for (int i = 0; i < 26; i++) {
             abc[i] = (char) (i + 'a');
         }
         System.out.println("Nova abeceda: " + abc.toString());

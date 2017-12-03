@@ -41,7 +41,7 @@ public class SwiZadanie2 {
         Random rnd = new Random(System.currentTimeMillis());
         int r = 0, i = 0;
         do {
-            r = rnd.nextInt(100);
+            r = rnd.nextInt(100) + 1;
             System.out.println(r);
         } while (i < 100);
     }

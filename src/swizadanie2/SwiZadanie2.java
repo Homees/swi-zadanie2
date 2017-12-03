@@ -20,7 +20,7 @@ public class SwiZadanie2 {
     
     private static void factorial() {
         int factorial = 5;
-        for (int i = 5; i > 0; i--) {
+        for (int i = 4; i > 0; i--) {
             factorial *= i;
         }
         System.out.println(factorial + "%n");

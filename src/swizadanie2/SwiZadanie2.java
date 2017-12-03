@@ -15,7 +15,15 @@ public class SwiZadanie2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        factorial();
+    }
+    
+    private static void factorial() {
+        int factorial = 5;
+        for (int i = 5; i > 0; i--) {
+            factorial *= i;
+        }
+        System.out.println(factorial + "%n");
     }
     
 }
